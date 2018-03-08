@@ -2,8 +2,51 @@
 {% block content %}
     <div class="text-center mb-4">
         <h1 class="h3 mb-3 font-weight-bold">Thanks</h1>
-        <p>Data</p>
+        <table class="table">
+            <thead class="thead-dark">
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Phone Number</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+            </tr>
+
+            <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+            </tr>
+            </tbody>
+        </table>
         <button class="btn btn-primary btn-block" onclick="history.go(-1)" type="submit">Back</button>
     </div>
+        <div class="datas">
+            {% for data in datas %}
+                <div class="data">
+                    <h2>{{ data.inputName }}</a></h2>
+		    <p>{{ data.id }} </p>
+                    <p>{{ data.inputEmail }}</p>
+                    <p>{{ data.inputTel }}</p>
+                    <p>{{ data.submitTime }}</p>
+
+                </div>
+            {% endfor %}
+        </div>
 
 {% endblock %}
