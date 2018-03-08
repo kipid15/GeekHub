@@ -1,25 +1,25 @@
 {% extends "mainPage/header.html" %}
 {% block content %}
 
-    <form class="form-signin">
+    <form class="form-signin" method="get" target="_self">
         <div class="text-center mb-4">
         <h1 class="h3 mb-3 font-weight-bold">GeekHub</h1>
         <p>Simple Form</p>
       </div>
 
       <div class="form-label-group">
-          <input type="text" id="inputName" class="form-control" placeholder="Full Name" required autofocus>
+          <input type="text" name="inputName" id="inputName" class="form-control" placeholder="Full Name" required autofocus>
           <label for="inputName">Full Name</label>
       </div>
 
       <div class="form-label-group">
-          <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+          <input type="email" name="inputEmail" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
           <label for="inputEmail">Email address</label>
       </div>
 
       <div class="form-label-group">
-          <input type="tel" id="inputTel" class="form-control" placeholder="Phone Number" pattern="^\d{2}-\d{2}-\d{3}-\d{4}$" required autofocus>
-          <label for="inputTel">Phone Number in (xx-xx-xxx-xxxx)</label>
+          <input type="tel" name="inputTel" id="inputTel" class="form-control" placeholder="Phone Number" pattern="^[0-9]{11}$" required autofocus>
+          <label for="inputTel">Phone Number with 11 numbers (eg 60123456789)</label>
       </div>
 
       <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
