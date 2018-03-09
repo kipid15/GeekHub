@@ -21,5 +21,6 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include ('mainPage.urls')),
-    url(r'^thanks.$',views.thanks)
+    url(r'^thanks$',views.thanks),
+    path('dataGrid', views.dataGrid),
 ]
