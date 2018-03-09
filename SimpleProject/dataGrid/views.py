@@ -1,3 +1,5 @@
 from django.shortcuts import render
 
-# Create your views here.
+def dataGrid(request):
+    return(render(request, '/dataGrid.html'))
+
