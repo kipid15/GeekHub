@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8fc6e44-4f14-47bc-9846-ff267ae7191a" name="Default" comment="lil update">
+    <list default="true" id="d8fc6e44-4f14-47bc-9846-ff267ae7191a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/SimpleProject/dataGrid/templates/mainPage/dataGrid.html" afterPath="$PROJECT_DIR$/SimpleProject/dataGrid/templates/mainPage/dataGrid.html" />
-      <change beforePath="$PROJECT_DIR$/SimpleProject/mainPage/templates/mainPage/header.html" afterPath="$PROJECT_DIR$/SimpleProject/mainPage/templates/mainPage/header.html" />
       <change beforePath="$PROJECT_DIR$/SimpleProject/mainPage/templates/mainPage/home.html" afterPath="$PROJECT_DIR$/SimpleProject/mainPage/templates/mainPage/home.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dataGrid.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dataGrid.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SimpleProject/dataGrid/templates/mainPage/dataGrid.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -26,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SimpleProject/mainPage/templates/mainPage/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="51">
+              <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -70,8 +68,8 @@
         <option value="$PROJECT_DIR$/SimpleProject/dataGrid/templates/dataGrid/dataGrid.html" />
         <option value="$PROJECT_DIR$/SimpleProject/dataGrid/views.py" />
         <option value="$PROJECT_DIR$/SimpleProject/mainPage/templates/mainPage/header.html" />
-        <option value="$PROJECT_DIR$/SimpleProject/mainPage/templates/mainPage/home.html" />
         <option value="$PROJECT_DIR$/SimpleProject/dataGrid/templates/mainPage/dataGrid.html" />
+        <option value="$PROJECT_DIR$/SimpleProject/mainPage/templates/mainPage/home.html" />
       </list>
     </option>
   </component>
@@ -258,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520773859838</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="background changes colour each time reloading. 3 colours.">
+      <created>1520917589276</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1520917589276</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -300,7 +305,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="new app special for better data view." />
     <MESSAGE value="lil update" />
-    <option name="LAST_COMMIT_MESSAGE" value="lil update" />
+    <MESSAGE value="background changes colour each time reloading. 3 colours." />
+    <option name="LAST_COMMIT_MESSAGE" value="background changes colour each time reloading. 3 colours." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -439,18 +445,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SimpleProject/mainPage/templates/mainPage/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SimpleProject/dataGrid/templates/mainPage/dataGrid.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SimpleProject/mainPage/templates/mainPage/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
           <folding />
         </state>
       </provider>
